@@ -1,0 +1,25 @@
+{
+  "name": "hao/flarum-ext-hello",
+  "type": "flarum-extension",
+  "description": "Say hello!",
+  "require": {
+    "flarum/core": "^0.1.0-beta.6"
+  },
+  "version": "1.0.8",
+  "authors": [
+    {
+      "name": "owwo",
+      "email": "owwo@outlook.com"
+    }
+  ],
+  "extra": {
+    "flarum-extension": {
+      "title": "Hello"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Hao\\Hello\\": "src/"
+    }
+  }
+}
